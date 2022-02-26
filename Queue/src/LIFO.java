@@ -1,14 +1,12 @@
 
 
-//Java program to demonstrate
-//working of LIFO
-//using Stack in Java
+
 
 import java.io.*;
 import java.util.*;
 
 public class LIFO {
-	// Pushing element on the top of the stack
+	
 	static void stack_push(Stack<Integer> stack)
 	{
 		for (int i = 0; i < 5; i++) {
@@ -16,7 +14,7 @@ public class LIFO {
 		}
 	}
 
-	// Popping element from the top of the stack
+	
 	static void stack_pop(Stack<Integer> stack)
 	{
 		System.out.println("Pop :");
@@ -27,14 +25,14 @@ public class LIFO {
 		}
 	}
 
-	// Displaying element on the top of the stack
+	
 	static void stack_peek(Stack<Integer> stack)
 	{
 		Integer element = (Integer)stack.peek();
 		System.out.println("Element on stack top : " + element);
 	}
 
-	// Searching element in the stack
+	
 	static void stack_search(Stack<Integer> stack, int element)
 	{
 		Integer pos = (Integer)stack.search(element);
