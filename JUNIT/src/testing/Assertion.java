@@ -1,14 +1,36 @@
+
 package testing;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
-class Assertion {
 
+
+
+public class Assertion
+{
 	@Test
-	void test() {
-		fail("Not yet implemented");
-	}
-
+    public void simple() 
+    { 
+	   int A = 1; 
+	   int B = 1; 
+	   assertEquals(A, B); 
+    }
+	@Test
+	public void simple1() 
+    { 
+	   int A = 1; 
+	   int B = 2; 
+	   assertEquals(A, B); 
+    }
+	@Disabled
+	@Test
+	public void simple2() 
+    { 
+	   int A = 1; 
+	   int B = 3; 
+	   assertEquals(A, B); 
+    }
 }
