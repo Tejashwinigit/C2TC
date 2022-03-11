@@ -52,7 +52,7 @@ public class B2 implements Runnable {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		thread1 r = new thread1();
 		r.start();                          //thread1
 		
