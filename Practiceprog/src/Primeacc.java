@@ -22,6 +22,11 @@ abstract class Primeacc extends Shopacc {
 	abstract public void bookProduct();
 	abstract public String toString();
 
+	public String toString1() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 	}
 	
 		

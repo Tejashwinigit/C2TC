@@ -1,9 +1,19 @@
 class GSShopFactory extends Shopacc {
-	public getNewPrimeacc() {
+	public void getNewPrimeacc() {
 		
 		
 	}
-public getNewNormalAcc() {
+public void getNewNormalAcc() {
 	
+}
+@Override
+public void bookproduct() {
+	// TODO Auto-generated method stub
+	
+}
+@Override
+public String toString() {
+	// TODO Auto-generated method stub
+	return null;
 }
 }
