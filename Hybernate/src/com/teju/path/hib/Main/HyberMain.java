@@ -11,8 +11,6 @@ import com.teju.path.hib.admin;
 
 public class HyberMain {
 
-	private static Object sessionFctory;
-
 	public static void main(String[] args) {
 		
 		admin a= new admin(0, null);
